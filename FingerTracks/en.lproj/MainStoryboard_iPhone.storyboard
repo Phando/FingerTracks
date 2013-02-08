@@ -98,7 +98,7 @@
                                 </constraints>
                             </slider>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Uq2-tq-SI8" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="2vw-cb-EME"/>
                             <constraint firstItem="Xyq-OO-Qqg" firstAttribute="centerX" secondItem="0sh-ys-uaD" secondAttribute="centerX" type="default" id="4uf-P6-7ER"/>
