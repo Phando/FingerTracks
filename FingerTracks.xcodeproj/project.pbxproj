@@ -19,6 +19,9 @@
 		2033159B16C4714D004D1D10 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2033159916C4714D004D1D10 /* MainStoryboard_iPhone.storyboard */; };
 		2033159E16C4714D004D1D10 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2033159C16C4714D004D1D10 /* MainStoryboard_iPad.storyboard */; };
 		203315A116C4714D004D1D10 /* ftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 203315A016C4714D004D1D10 /* ftViewController.m */; };
+		203315AA16C471A5004D1D10 /* ftApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 203315A916C471A5004D1D10 /* ftApplication.m */; };
+		203315AD16C471D7004D1D10 /* ftDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 203315AC16C471D7004D1D10 /* ftDisplayView.m */; };
+		203315B016C471EF004D1D10 /* ftDisplayPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 203315AF16C471EF004D1D10 /* ftDisplayPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,12 @@
 		2033159D16C4714D004D1D10 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		2033159F16C4714D004D1D10 /* ftViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftViewController.h; sourceTree = "<group>"; };
 		203315A016C4714D004D1D10 /* ftViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ftViewController.m; sourceTree = "<group>"; };
+		203315A816C471A5004D1D10 /* ftApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ftApplication.h; path = FingerTracks/ftApplication.h; sourceTree = "<group>"; };
+		203315A916C471A5004D1D10 /* ftApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ftApplication.m; path = FingerTracks/ftApplication.m; sourceTree = "<group>"; };
+		203315AB16C471D7004D1D10 /* ftDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ftDisplayView.h; path = FingerTracks/ftDisplayView.h; sourceTree = "<group>"; };
+		203315AC16C471D7004D1D10 /* ftDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ftDisplayView.m; path = FingerTracks/ftDisplayView.m; sourceTree = "<group>"; };
+		203315AE16C471EF004D1D10 /* ftDisplayPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ftDisplayPoint.h; path = FingerTracks/ftDisplayPoint.h; sourceTree = "<group>"; };
+		203315AF16C471EF004D1D10 /* ftDisplayPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ftDisplayPoint.m; path = FingerTracks/ftDisplayPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,7 @@
 		2033158716C4714D004D1D10 /* FingerTracks */ = {
 			isa = PBXGroup;
 			children = (
+				203315A716C47171004D1D10 /* FingerTracks */,
 				2033159016C4714D004D1D10 /* ftAppDelegate.h */,
 				2033159116C4714D004D1D10 /* ftAppDelegate.m */,
 				2033159916C4714D004D1D10 /* MainStoryboard_iPhone.storyboard */,
@@ -108,6 +118,19 @@
 				2033159716C4714D004D1D10 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		203315A716C47171004D1D10 /* FingerTracks */ = {
+			isa = PBXGroup;
+			children = (
+				203315A816C471A5004D1D10 /* ftApplication.h */,
+				203315A916C471A5004D1D10 /* ftApplication.m */,
+				203315AB16C471D7004D1D10 /* ftDisplayView.h */,
+				203315AC16C471D7004D1D10 /* ftDisplayView.m */,
+				203315AE16C471EF004D1D10 /* ftDisplayPoint.h */,
+				203315AF16C471EF004D1D10 /* ftDisplayPoint.m */,
+			);
+			name = FingerTracks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +204,9 @@
 				2033158E16C4714D004D1D10 /* main.m in Sources */,
 				2033159216C4714D004D1D10 /* ftAppDelegate.m in Sources */,
 				203315A116C4714D004D1D10 /* ftViewController.m in Sources */,
+				203315AA16C471A5004D1D10 /* ftApplication.m in Sources */,
+				203315AD16C471D7004D1D10 /* ftDisplayView.m in Sources */,
+				203315B016C471EF004D1D10 /* ftDisplayPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,12 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-
 #import "ftAppDelegate.h"
+#import "ftApplication.h"
 
 int main(int argc, char *argv[])
 {
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([ftAppDelegate class]));
+    @autoreleasepool
+    {
+        // Commented out the default main code.
+        //return UIApplicationMain(argc, argv, nil, NSStringFromClass([ftAppDelegate class]));
+        
+        // This is the only line needed in order to add Finger Tracks to your application.
+        return UIApplicationMain(argc, argv, NSStringFromClass([ftApplication class]), NSStringFromClass([ftAppDelegate class]));
     }
 }

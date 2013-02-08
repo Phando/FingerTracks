@@ -26,4 +26,22 @@
     // Dispose of any resources that can be recreated.
 }
 
+//
+// A simple example to show how to turn on and off the finger tracks.
+//
+- (IBAction)handleShowTouchesSwitch:(id)sender
+{
+    UISwitch *sw = (UISwitch *)sender;
+    
+    if( !sw.on )
+    {
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"HideFingerTracks" object:self];
+    }
+    else
+    {
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"ShowFingerTracks" object:self];
+    }
+
+}
+
 @end
