@@ -19,15 +19,21 @@ To install and use FingerTracks follow these steps:
 
 4. Comment out the current return in your main.m 
 
-    ```return UIApplicationMain(argc, argv, nil, NSStringFromClass([ftAppDelegate class]));```
+``` objective-c
+return UIApplicationMain(argc, argv, nil, NSStringFromClass([ftAppDelegate class]));
+```
 
 5. Paste this line in its place:
 
-    ```return UIApplicationMain(argc, argv, NSStringFromClass([ftApplication class]), NSStringFromClass([ftAppDelegate class]));```
+``` objective-c
+return UIApplicationMain(argc, argv, NSStringFromClass([ftApplication class]), NSStringFromClass([ftAppDelegate class]));
+```
 
 6. If you want to turn FingerTracks on or off send one of the following notifications: 
   
-    ```[[NSNotificationCenter defaultCenter] postNotificationName:@"HideFingerTracks" object:self];```
-    ```[[NSNotificationCenter defaultCenter] postNotificationName:@"HideFingerTracks" object:self];```
+``` objective-c
+[[NSNotificationCenter defaultCenter] postNotificationName:@"ShowFingerTracks" object:self]; // Enable
+[[NSNotificationCenter defaultCenter] postNotificationName:@"HideFingerTracks" object:self]; // Disable
+```
 
 Happy Coding
