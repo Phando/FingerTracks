@@ -32,8 +32,8 @@ return UIApplicationMain(argc, argv, NSStringFromClass([ftApplication class]), N
 6. If you want to turn FingerTracks on or off send one of the following notifications: 
   
 ``` objective-c
-[[NSNotificationCenter defaultCenter] postNotificationName:@"HideFingerTracks" object:self];
-[[NSNotificationCenter defaultCenter] postNotificationName:@"HideFingerTracks" object:self];
+[[NSNotificationCenter defaultCenter] postNotificationName:@"ShowFingerTracks" object:self]; // Enable
+[[NSNotificationCenter defaultCenter] postNotificationName:@"HideFingerTracks" object:self]; // Disable
 ```
 
 Happy Coding
