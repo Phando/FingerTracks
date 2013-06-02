@@ -3,6 +3,8 @@ FingerTracks
 
 An easy to use set of classes to ad touch feedback to your applications.
 
+![FingerTracks](http://codingangry.com/demos/fingerTracks/fingerTracks.png)
+
 All too often I find myself demo'ing an iOS application on a projector or remotely. 
 The app looks great but there is one glaring problem. The lack of my touch points. 
 My audience sees the app reacting, but they don't know what the app is reacting to. 
